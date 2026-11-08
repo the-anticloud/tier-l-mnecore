@@ -1,0 +1,3 @@
+# Architecture — L_MNECORE
+
+See upstream documentation at https://mne.tools/stable/

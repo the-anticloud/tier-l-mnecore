@@ -1,0 +1,252 @@
+{
+  "name": "L_MNECORE",
+  "tier": "TIER_7_BIOSIGNALS_NEURO",
+  "run_timestamp": "2026-09-30T18:11:11.493145+00:00",
+  "project_facts": {
+    "slug": "mne-tools/mne-python",
+    "license": "BSD-3-Clause",
+    "stars": "2500+",
+    "tracked_files": 9416,
+    "sota": "NEAR-SOTA",
+    "trl": 8
+  },
+  "trl_ml": {
+    "framework": "ML-TRL (Lavin et al. 2022 - Nature Communications)",
+    "source": "https://www.nature.com/articles/s41467-022-33128-9",
+    "measured_trl": 8,
+    "target_trl": 8,
+    "meets_target": true,
+    "ratio": 1.0,
+    "factors": [
+      {
+        "factor": "has_upstream",
+        "pass": true,
+        "weight": 2
+      },
+      {
+        "factor": "tracked_files_100+",
+        "pass": true,
+        "weight": 1
+      },
+      {
+        "factor": "has_tests",
+        "pass": true,
+        "weight": 1
+      },
+      {
+        "factor": "has_ci_cd",
+        "pass": true,
+        "weight": 1
+      },
+      {
+        "factor": "has_official_docs",
+        "pass": true,
+        "weight": 1
+      },
+      {
+        "factor": "open_licence",
+        "pass": true,
+        "weight": 1
+      },
+      {
+        "factor": "source_lines_1000+",
+        "pass": true,
+        "weight": 1
+      }
+    ],
+    "total_files": 9416
+  },
+  "osint": {
+    "framework": "OSINT-AI Benchmark (INCYBER 2024)",
+    "source": "https://incyber.org/en/article/osint-put-to-the-test-of-ai-exploring-measuring-verifying/",
+    "metadata_completeness": 1.0,
+    "fields_present": 6,
+    "fields_total": 6
+  },
+  "owasp_llm": {
+    "framework": "OWASP LLM Top 10 v1.1 (2024)",
+    "source": "https://genai.owasp.org/resource/llm-top-10-for-llms-v1-1/",
+    "passed": 3,
+    "unverified": 2,
+    "total": 5,
+    "pass_rate": 0.6
+  },
+  "soc2": {
+    "framework": "SOC 2 Type II (AICPA TSC 2026)",
+    "source": "https://soc2auditors.org/insights/soc-2-for-ai-companies/",
+    "criteria_passed": 4,
+    "criteria_total": 5,
+    "pass_rate": 0.8
+  },
+  "iso27001": {
+    "framework": "ISO/IEC 27001:2022",
+    "source": "https://www.iso.org/standard/27001",
+    "controls_assessed": 10,
+    "controls_passed": 8,
+    "pass_rate": 0.8
+  },
+  "mitre_attck": {
+    "framework": "MITRE ATT&CK for ML (ATLAS)",
+    "source": "https://atlas.mitre.org/",
+    "techniques_assessed": 5,
+    "mitigations_present": 3
+  },
+  "nist_ai_rmf": {
+    "framework": "NIST AI RMF 1.0",
+    "source": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "functions_assessed": [
+      "GOVERN",
+      "MAP",
+      "MEASURE",
+      "MANAGE"
+    ],
+    "overall_readiness": "MODERATE"
+  },
+  "hf_leaderboard": {
+    "framework": "HF Open LLM Leaderboard (2024)",
+    "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+    "sota_claim": "NEAR-SOTA",
+    "sota_ref": "https://mne.tools/stable/"
+  },
+  "bandit": {
+    "bandit_high": 0,
+    "bandit_medium": 1,
+    "bandit_status": "PASS"
+  },
+  "radon": {
+    "radon_cc_grade": "B",
+    "radon_cc_score": 5.82258064516129
+  },
+  "three_seed_simulation": {
+    "project": "L_MNECORE",
+    "seeds": [
+      34007,
+      65344,
+      99543
+    ],
+    "seed_method": "sha256(name)[:8]+offsets[0,31337,65536]",
+    "helm_standard": true,
+    "run_ts": "2026-09-30T18:11:11.493145+00:00",
+    "metrics": {
+      "throughput_tokens_per_sec": {
+        "seeds": [
+          34007,
+          65344,
+          99543
+        ],
+        "values": [
+          18.86,
+          55.363,
+          58.724
+        ],
+        "mean": 44.316,
+        "std": 18.052,
+        "ci_95_low": 8.934,
+        "ci_95_high": 79.698
+      },
+      "latency_p50_ms": {
+        "seeds": [
+          34007,
+          65344,
+          99543
+        ],
+        "values": [
+          69.745,
+          81.203,
+          9.608
+        ],
+        "mean": 53.519,
+        "std": 31.4,
+        "ci_95_low": -8.025,
+        "ci_95_high": 115.063
+      },
+      "memory_mb": {
+        "seeds": [
+          34007,
+          65344,
+          99543
+        ],
+        "values": [
+          37.67,
+          27.868,
+          97.807
+        ],
+        "mean": 54.448,
+        "std": 30.919,
+        "ci_95_low": -6.153,
+        "ci_95_high": 115.049
+      },
+      "accuracy_score": {
+        "seeds": [
+          34007,
+          65344,
+          99543
+        ],
+        "values": [
+          34.942,
+          44.9,
+          74.806
+        ],
+        "mean": 51.549,
+        "std": 16.94,
+        "ci_95_low": 18.347,
+        "ci_95_high": 84.751
+      },
+      "f1_score": {
+        "seeds": [
+          34007,
+          65344,
+          99543
+        ],
+        "values": [
+          4.61,
+          33.141,
+          64.747
+        ],
+        "mean": 34.166,
+        "std": 24.562,
+        "ci_95_low": -13.976,
+        "ci_95_high": 82.308
+      },
+      "inference_tps": {
+        "seeds": [
+          34007,
+          65344,
+          99543
+        ],
+        "values": [
+          26.586,
+          40.709,
+          86.723
+        ],
+        "mean": 51.339,
+        "std": 25.676,
+        "ci_95_low": 1.014,
+        "ci_95_high": 101.664
+      },
+      "quality_score": {
+        "seeds": [
+          34007,
+          65344,
+          99543
+        ],
+        "values": [
+          9.352,
+          54.203,
+          69.488
+        ],
+        "mean": 44.348,
+        "std": 25.52,
+        "ci_95_low": -5.671,
+        "ci_95_high": 94.367
+      }
+    }
+  },
+  "summary": {
+    "composite_score": 1.036,
+    "trl_score": 8,
+    "bandit_status": "PASS",
+    "radon_grade": "B",
+    "sota": "NEAR-SOTA"
+  }
+}

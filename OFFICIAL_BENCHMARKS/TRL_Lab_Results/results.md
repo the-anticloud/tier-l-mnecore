@@ -1,0 +1,52 @@
+# TRL_Lab_Results — L_MNECORE
+
+**Run:** 2026-09-30T18:11:11.493145+00:00
+
+```json
+{
+  "framework": "ML-TRL (Lavin et al. 2022 - Nature Communications)",
+  "source": "https://www.nature.com/articles/s41467-022-33128-9",
+  "measured_trl": 8,
+  "target_trl": 8,
+  "meets_target": true,
+  "ratio": 1.0,
+  "factors": [
+    {
+      "factor": "has_upstream",
+      "pass": true,
+      "weight": 2
+    },
+    {
+      "factor": "tracked_files_100+",
+      "pass": true,
+      "weight": 1
+    },
+    {
+      "factor": "has_tests",
+      "pass": true,
+      "weight": 1
+    },
+    {
+      "factor": "has_ci_cd",
+      "pass": true,
+      "weight": 1
+    },
+    {
+      "factor": "has_official_docs",
+      "pass": true,
+      "weight": 1
+    },
+    {
+      "factor": "open_licence",
+      "pass": true,
+      "weight": 1
+    },
+    {
+      "factor": "source_lines_1000+",
+      "pass": true,
+      "weight": 1
+    }
+  ],
+  "total_files": 9416
+}
+```
