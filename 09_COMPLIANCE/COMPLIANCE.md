@@ -14,7 +14,7 @@
 
 `L_MNECORE` is a component of the Anticloud sovereign AI stack, operating in the biosignal processing, EEG/BCI, neural data analysis, brain-computer interfaces domain. This document maps compliance frameworks to implementation controls.
 
-## Verified Compliance (2026-Q3)
+## Compliance posture (self-assessment, 2026-Q3)
 
 | Framework | Coverage | Verification Method |
 |---|---|---|
